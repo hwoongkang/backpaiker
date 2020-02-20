@@ -1,0 +1,30 @@
+{
+  "python.linting.pylintArgs": ["--load-plugins=pylint_django"],
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "[django-html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "beautify.language": {
+    "js": {
+      "type": ["javascript", "json", "jsonc"],
+      "filename": [".jshintrc", ".jsbeautifyrc"]
+    },
+    "css": ["css", "less", "scss"],
+    "html": ["htm", "html", "django-html"]
+  },
+  "beautify.config": {
+    "indent_size": 2,
+    "indent_char": " ",
+    "preserver_newlines": true
+  },
+  "python.pythonPath": "/Users/hyunwoong/.local/share/virtualenvs/paiiek_again-MkBHBaPg/bin/python",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
+}

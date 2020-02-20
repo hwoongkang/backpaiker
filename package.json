@@ -1,0 +1,38 @@
+{
+  "name": "backpaiker",
+  "version": "1.0.0",
+  "description": "portfolio,again",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch ./backpaiker/frontend/src/index.js --output ./backpaiker/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./backpaiker/frontend/src/index.js --output ./backpaiker/frontend/static/frontend/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hwoongkang/backpaiker.git"
+  },
+  "keywords": [
+    "react",
+    "django"
+  ],
+  "author": "Hyunwoong Kang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hwoongkang/backpaiker/issues"
+  },
+  "homepage": "https://github.com/hwoongkang/backpaiker#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
